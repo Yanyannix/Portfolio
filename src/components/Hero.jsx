@@ -123,10 +123,10 @@ export default function Hero() {
           {/* STATS (unchanged) */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
 
-            {[20, 10, 4, 95].map((n, i) => (
+            {[3, 1, 4, 95].map((n, i) => (
               <div key={i} className="glass p-5 rounded-3xl animate-pulse">
                 <h2 className="text-3xl font-bold gradient-text">
-                  {i === 3 ? "95%" : `${n}+`}
+                  {i === 3 ? "95%" : `${n}`}
                 </h2>
                 <p className="text-gray-400">
                   {["Projects", "Clients", "Years", "Success"][i]}

@@ -7,7 +7,7 @@ const skillGroups = [
   },
   {
     title: "BACKEND",
-    skills: ["Node.js", "Express", "Firebase", "Supabase", "REST API", "MongoDB"],
+    skills: ["Node.js", "Laravel", "Firebase", "Supabase", "REST API", "MongoDB"],
   },
   {
     title: "TOOLS",
